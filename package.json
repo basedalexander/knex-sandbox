@@ -1,0 +1,19 @@
+{
+  "name": "msql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex-make": "./node_modules/.bin/knex migrate:make",
+    "knex-migrate": "./node_modules/.bin/knex migrate:latest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "knex": "^0.13.0",
+    "mysql": "^2.15.0"
+  }
+}
